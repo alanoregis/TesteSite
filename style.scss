@@ -6,6 +6,8 @@
 }
 
 @import "partials/colors";
+@import "partials/header";
+@import "partials/layout";
 
 body{
     font-family: 'Lobster', sans-serif;
@@ -14,4 +16,18 @@ body{
     position: relative;
 
     background-color: $primary-normal;
+}
+
+button{
+    font-family: 'Lobster', sans-serif;
+    cursor: pointer;
+}
+
+svg{
+    width: 100%;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
 }
