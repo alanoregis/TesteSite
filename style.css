@@ -125,13 +125,25 @@ i {
 .button-contact {
   padding: 14px 28px;
   color: #FFF;
-  background-color: #FFF;
+  background-color: #d94140;
   border: 0;
   font-size: 18px;
   font-weight: 600;
   margin: 14px 0;
 }
 
+.button-contact:hover {
+  animation: scaleButton 0.8s alternate infinite;
+}
+
+@keyframes scaleButton {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.07);
+  }
+}
 body {
   font-family: "Lobster", sans-serif;
   width: 100%;
